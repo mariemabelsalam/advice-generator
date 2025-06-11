@@ -1,0 +1,38 @@
+.bg,
+.card.bg {
+  background-color: #323a49;
+}
+.dice i {
+  width: 50px;
+  height: 50px;
+  transform: translateY(70%);
+  padding-top: 13px;
+  cursor: pointer;
+}
+.pause span {
+  position: relative;
+}
+.pause span::after {
+  content: " ";
+  width: 85%;
+  height: 2px;
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 10%;
+}
+.pause span::before {
+  content: " ";
+  width: 80%;
+  height: 2px;
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  right: 110%;
+}
+
+@media (max-width: 767px) {
+  section.content {
+    width: 90% !important;
+  }
+}
