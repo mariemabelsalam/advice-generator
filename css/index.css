@@ -2,12 +2,16 @@
 .card.bg {
   background-color: #323a49;
 }
+.card {
+  width: 40%;
+}
 .dice i {
   width: 50px;
   height: 50px;
   transform: translateY(70%);
   padding-top: 13px;
   cursor: pointer;
+  padding: 13px;
 }
 .pause span {
   position: relative;
@@ -34,5 +38,8 @@
 @media (max-width: 767px) {
   section.content {
     width: 90% !important;
+  }
+  .card {
+    width: 90%;
   }
 }

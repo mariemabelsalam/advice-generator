@@ -13,31 +13,29 @@
 <body class="bg-dark">
 
 
-    <main class="text-center vh-100">
+    <main class="text-center">
         <section>
             <div class="title text-white">
                 <h1 class="bg py-3">Advice generator app</h1>
             </div>
         </section>
 
-
-        <section class="my-5 w-50 mx-auto content">
+        <section class="d-flex justify-content-center align-items-center mx-auto content vh-100">
             <div class="card bg p-3 rounded-3">
-                <h5 class="text-success"></h5>
-                <p class="text-white fs-4 mb-4">
-
+                <h5 class="text-success" id="advice-id"></h5>
+                <p class="text-white fs-4 mb-4" id="advice-text">
+                   
                 </p>
                 <div class="pause">
                     <span>
                         <i class="fa-solid fa-pause text-white fs-4 d-block"></i>
                     </span>
                 </div>
-                <div class="dice mt-3">
-                    <i class="fa-solid fa-dice-five bg-success rounded-circle fs-4"></i>
+                <div class="dice mt-3" id="generate-btn" style="cursor: pointer;">
+                    <i class="fa-solid fa-dice-five bg-success rounded-circle fs-4  text-white"></i>
                 </div>
             </div>
         </section>
-
     </main>
 
 
